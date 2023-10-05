@@ -8,39 +8,43 @@ body, h1, h2, h3, p {
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-    display: flex;
 }
 
-.sidebar {
-    width: 250px; /* Adjust the width of the sidebar as needed */
+header {
+    text-align: center;
+    padding: 20px;
     background-color: #333;
     color: #fff;
 }
 
-.sidebar h2 {
-    padding: 20px;
-    text-align: center;
-}
-
-.sidebar ul {
+nav ul {
     list-style-type: none;
-    padding: 0;
-}
-
-.sidebar li {
-    padding: 10px 0;
     text-align: center;
+    background-color: #333;
 }
 
-.sidebar a {
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
     text-decoration: none;
     color: #fff;
-    display: block;
 }
 
-.content {
-    flex: 1;
+section {
     padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.project {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 footer {
@@ -48,5 +52,4 @@ footer {
     padding: 10px;
     background-color: #333;
     color: #fff;
-    clear: both;
 }
