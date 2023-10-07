@@ -6,7 +6,7 @@ body, h1, h2, h3, p {
 
 /* Basic styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif; /* Use 'Poppins' as the primary font, fallback to Arial and sans-serif */
     background-color: #f0f0f0;
 }
 
@@ -17,10 +17,14 @@ header {
     color: #fff;
 }
 
+nav {
+    text-align: right;
+    padding: 20px;
+    background-color: #333;
+}
+
 nav ul {
     list-style-type: none;
-    text-align: center;
-    background-color: #333;
 }
 
 nav ul li {
