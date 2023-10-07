@@ -1,7 +1,30 @@
+/* 新增样式以控制图像和文本的排版 */
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px; /* 根据需要调整最大宽度 */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.image-container {
+    flex: 1;
+    padding: 20px;
+    text-align: center; /* 将图像在容器中居中对齐 */
+}
+
 .image-container img {
-    max-width: 100%; /* 讓圖片的寬度最大不超過其容器 */
-    height: auto; /* 讓圖片的高度自動調整，以保持原始的寬高比 */
-    width: 200px; /* 設定圖片的寬度為200像素，您可以根據需要調整此值 */
+    max-width: 100%; /* 图像宽度不超过容器宽度 */
+    height: auto; /* 自动调整图像高度，保持宽高比 */
+}
+
+.text-container {
+    flex: 2;
+    padding: 20px;
 }
 
 /* 重置一些默認樣式 */
